@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import ConceptualDiagram from '../../public/conceptual-diagram.jpeg';// Ensure the image is in your assets folder
+import LiteratureReview from '../../public/literature-review-img.jpg';// Ensure the image is in your assets folder
 
 const LiteratureSurvey = () => {
     // Animation variants for the text and image
@@ -26,7 +26,7 @@ const LiteratureSurvey = () => {
 
     return (
         <section id="literature-survey" className="min-h-screen py-0 bg-white">
-            <div className="container mx-auto px-6 flex flex-col md:flex-row items-start">
+            <div className="container mx-auto px-6 flex flex-col md:flex-row items-start padded-section">
                 {/* Left Side - Animated Text */}
                 <motion.div 
                     className="w-full md:w-1/2 mb-6 md:mb-0"
@@ -70,8 +70,8 @@ const LiteratureSurvey = () => {
                     variants={imageVariants}
                 >
                     <Image
-                        src={ConceptualDiagram}
-                        alt="Conceptual Diagram"
+                        src={LiteratureReview}
+                        alt="LiteratureReview"
                         className="rounded-lg shadow-md"
                         width={600}
                         height={600}

@@ -68,7 +68,7 @@ const milestonesData = [
 const Milestones = () => {
   return (
     <section className="bg-gray-100 min-h-screen py-20">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 padded-section">
         <h2 className="text-4xl font-bold text-gray-800 mb-6">Milestones</h2>
         <p className="text-gray-700 text-lg mb-4">
           This section presents the key milestones achieved during the research project.

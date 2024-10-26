@@ -4,4 +4,9 @@
 /* globals.css */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden
+}
+
+.padded-section {
+  @apply px-20;
 }
