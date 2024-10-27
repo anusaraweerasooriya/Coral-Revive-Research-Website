@@ -1,73 +1,81 @@
 const milestonesData = [
   {
-    date: "March 2021",
+    date: "February 2024",
     title: "Project Proposal",
     description:
       "A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.",
-    marks: 6,
-    progress: "6%",
+    marks: 12,
+    progress: "0%",
   },
   {
-    date: "June 2021",
+    date: "May 2024",
     title: "Progress Presentation I",
     description:
       "Progress Presentation I reviews the 50% completion status of the project. This reveals any gaps or inconsistencies in the design/requirements.",
-    marks: 6,
-    progress: "6%",
+    marks: 15,
+    progress: "12%",
   },
   {
-    date: "July 2021",
+    date: "June 2024",
     title: "Research Paper",
     description:
       "Describes what you contribute to existing knowledge, giving due recognition to all work that you referred in making new knowledge.",
     marks: 10,
-    progress: "10%",
+    progress: "27%",
   },
   {
-    date: "September 2021",
+    date: "September 2024",
     title: "Progress Presentation II",
     description:
       "Progress Presentation II reviews the 90% completion status and demonstration of the project. Along with a Poster presentation which describes the project as a whole.",
     marks: 18,
-    progress: "18%",
+    progress: "37%",
   },
   {
-    date: "October 2021",
+    date: "October 2024",
     title: "Website Assessment",
     description:
       "The Website helps to promote our research project and reveals all details related to the project.",
     marks: 2,
-    progress: "2%",
+    progress: "55%",
   },
   {
-    date: "November 2021",
-    title: "Logbook",
+    date: "October 2021",
+    title: "Final Presentation & Viva",
     description:
-      "Status of the project is validated through the Logbook. This also includes Status documents 1 & 2.",
-    marks: 3,
-    progress: "3%",
+      "Viva is held individually to assess each member’s contribution to the project.",
+    marks: 20,
+    progress: "57%",
   },
   {
     date: "November 2021",
     title: "Final Report",
     description:
       "Final Report evaluates the completed project done throughout the year. Marks mentioned below include marks for Individual & group reports and also Final report.",
-    marks: 10,
-    progress: "10%",
+    marks: 19,
+    progress: "77%",
+  },
+  {
+    date: "November 2024",
+    title: "Progress Reports",
+    description:
+      "Progress of the project is validated through the two Progress reports which are submited at 50% completion and 90% completion",
+    marks: 2,
+    progress: "96%",
   },
   {
     date: "November 2021",
-    title: "Final Presentation & Viva",
+    title: "Logbook",
     description:
-      "Viva is held individually to assess each member’s contribution to the project.",
-    marks: 20,
-    progress: "20%",
+      "Weekly of the project throughout the year is documented in the Logbook. This also include details of supervisor meetings and field visits",
+    marks: 2,
+    progress: "98%",
   },
 ];
 
 const Milestones = () => {
   return (
-    <section className="bg-gray-100 min-h-screen py-20">
+    <section id="milestones" className="bg-gray-100 min-h-screen py-20">
       <div className="container mx-auto px-4 padded-section">
         <h2 className="text-4xl font-bold text-gray-800 mb-6">Milestones</h2>
         <p className="text-gray-700 text-lg mb-4">
@@ -109,15 +117,29 @@ const Milestones = () => {
                     {milestone.description}
                   </p>
                   <div className="text-sm text-gray-700 mb-2 group-hover:text-gray-300">
-                    Marks Allocated: {milestone.marks}
+                    Marks Allocated: {milestone.marks}%
                   </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2 mb-2">
+
+                  {/* Two-Color Progress Bar */}
+                  <div className="w-full bg-gray-200 rounded-full h-2 mb-2 flex">
                     <div
-                      className="bg-green-500 h-2 rounded-full"
-                      style={{ width: milestone.progress }}
+                      className="h-2 rounded-l-full"
+                      style={{
+                        width: milestone.progress,
+                        backgroundColor: 'rgb(34,197,94)', // First color (green)
+                      }}
+                    ></div>
+                    <div
+                      className="h-2 rounded-r-full"
+                      style={{
+                        width: milestone.marks + '%',
+                        backgroundColor: 'rgb(59,130,246)', // Second color (blue)
+                      }}
                     ></div>
                   </div>
-                  <div className="text-sm text-gray-700 group-hover:text-gray-300">{milestone.progress}</div>
+                  <div className="text-sm text-blue-700 group-hover:text-gray-300 text-right">
+                    {milestone.marks + parseInt(milestone.progress)}% COMPLETED
+                  </div>
                 </div>
               </div>
             </div>

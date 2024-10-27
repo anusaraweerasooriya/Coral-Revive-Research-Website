@@ -22,7 +22,7 @@ const Page = () => {
         <Home />
         <LiteratureSurvey />
         <ResearchGap />
-        {/* <ResearchProblem /> */}
+        <ResearchProblem />
         <ResearchObjectives />
         <Methodology />
         <TechnologiesUsed />

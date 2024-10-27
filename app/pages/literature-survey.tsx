@@ -25,7 +25,7 @@ const LiteratureSurvey = () => {
     };
 
     return (
-        <section id="literature-survey" className="min-h-screen py-0 bg-white">
+        <section id="literature-survey" className="min-h-screen pt-20 bg-white">
             <div className="container mx-auto px-6 flex flex-col md:flex-row items-start padded-section">
                 {/* Left Side - Animated Text */}
                 <motion.div 

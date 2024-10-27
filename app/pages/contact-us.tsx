@@ -60,7 +60,7 @@ const ContactUs = () => {
           </p>
           <ul className="space-y-4 text-gray-700 text-lg text-left">
             <li className="flex items-center">
-              <FiMail className="mr-2" /> <span>coralresearchteam@sliit.lk</span>
+              <FiMail className="mr-2" /> <span>coralrevivedeveloper@gmail.com</span>
             </li>
             <li className="flex items-start">
               <FiHome className="mr-2 mt-1" />

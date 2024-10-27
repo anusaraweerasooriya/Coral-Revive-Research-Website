@@ -15,7 +15,7 @@ const ResearchGap = () => {
     });
 
     return (
-        <section id="research-gap" className="min-h-screen py-10 bg-white">
+        <section id="research-gap" className="min-h-screen pt-20 bg-white">
             <div className="container mx-auto px-6 padded-section">
                 <h2 className="text-4xl font-bold text-gray-800 mb-6">Research Gap</h2>
             
