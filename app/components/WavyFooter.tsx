@@ -1,32 +1,48 @@
 import React from 'react';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="relative bg-white overflow-hidden">
-      {/* Wave Effect at the Top */}
-      <div className="absolute inset-x-0 top-0 -translate-y-1/2">
-        <svg
-          className="w-full"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 320"
-        >
-          <path
-            fill="#ffffff"
-            fillOpacity="1"
-            d="M0,96L30,133.3C60,171,120,245,180,266.7C240,288,300,256,360,213.3C420,171,480,117,540,90.7C600,64,660,64,720,69.3C780,75,840,85,900,85.3C960,85,1020,75,1080,96C1140,117,1200,171,1260,192C1320,213,1380,203,1410,197.3L1440,192L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
-          ></path>
-        </svg>
-      </div>
-      {/* Background Image */}
-      <div className="relative w-full h-64 bg-cover bg-center" style={{ backgroundImage: "url('/image.jpg')" }}>
-        <div className="flex flex-col items-center justify-center h-full text-center text-white space-y-4">
-          <h2 className="text-2xl md:text-4xl font-bold">
+    <footer className="bg-gray-900 text-white py-16">
+      <div className="container mx-auto px-6 lg:px-8 flex flex-col lg:flex-row justify-between items-center lg:items-start space-y-8 lg:space-y-0 lg:space-x-12">
+        {/* Logo and Description */}
+        <div className="text-center lg:text-left">
+          <img src="/white-logo.svg" alt="Logo" className="h-20 md:h-24 lg:h-32 mx-auto lg:mx-0 mb-4" />
+          <p className="max-w-xs mx-auto lg:mx-0 text-sm text-gray-300">
             Embark on a journey of discovery with Coral Wall Diving and Research Center. Book your adventure now
-          </h2>
-          <button className="bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600 transition">
-            Contact Us
-          </button>
+          </p>
+          {/* Social Media Icons */}
+          <div className="flex justify-center lg:justify-start mt-4 space-x-4">
+            <a href="#" aria-label="Facebook" className="text-gray-400 hover:text-white transition">
+              <FaFacebookF />
+            </a>
+            <a href="#" aria-label="Twitter" className="text-gray-400 hover:text-white transition">
+              <FaTwitter />
+            </a>
+            <a href="#" aria-label="Instagram" className="text-gray-400 hover:text-white transition">
+              <FaInstagram />
+            </a>
+            <a href="#" aria-label="LinkedIn" className="text-gray-400 hover:text-white transition">
+              <FaLinkedinIn />
+            </a>
+          </div>
         </div>
+
+        {/* Download Section */}
+        <div className="text-center">
+          <h3 className="text-lg font-semibold mb-4">Download</h3>
+          <a href="#" className="inline-block mb-4">
+            <img src="/google-play.png" alt="Download on Google Play" className="h-10" />
+          </a>
+          <p className="text-gray-400 hover:text-white transition">
+            <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+
+      {/* Bottom Section */}
+      <div className="border-t border-gray-700 mt-8 pt-6 text-center">
+        <p className="text-gray-500 text-sm">Copyright © 2024 CoralRevive</p>
       </div>
     </footer>
   );

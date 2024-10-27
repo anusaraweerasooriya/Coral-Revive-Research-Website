@@ -29,8 +29,15 @@ const Navbar = () => {
   return (
     <nav className="bg-gradient-to-r from-blue-100 to-blue-50 py-4 shadow-md fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center px-6 padded-section">
-        <div className="text-2xl font-bold text-gray-800">
-          CoralRevive
+      <div>
+      <Link href="#home" onClick={closeMenus}>
+        <img
+          src="/blue-logo.svg"
+          alt="CoralRevive Logo"
+          className="h-14 w-auto" // Keeps aspect ratio by setting width to auto
+        />
+      </Link>
+
         </div>
         <div className="hidden md:flex space-x-8 items-center">
           <Link href="#home" className="text-gray-800 hover:text-blue-600">Home</Link>
