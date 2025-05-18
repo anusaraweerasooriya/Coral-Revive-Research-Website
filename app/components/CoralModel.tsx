@@ -3,7 +3,7 @@
 import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useTexture } from '@react-three/drei';
-import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
+import { OBJLoader } from 'three-stdlib';
 import * as THREE from 'three';
 import { useLoader } from '@react-three/fiber';
 
@@ -26,9 +26,9 @@ const CoralMesh = () => {
     metalness: 1,
   });
 
-  obj.traverse((child) => {
-    if ((child as THREE.Mesh).isMesh) {
-      (child as THREE.Mesh).material = material;
+  obj.traverse((child: THREE.Object3D) => {
+    if (child instanceof THREE.Mesh) {
+      child.material = material;
     }
   });
 
