@@ -16,7 +16,7 @@ const ResearchObjectives = () => {
 
     return (
         <section id="research-objectives" className="pt-20 bg-gray-100">
-            <div className="container mx-auto px-6 padded-section">
+            <div className="container mx-auto px-6 padded-section py-10">
                 <h2 className="text-4xl font-bold text-center mb-8">Research Objectives</h2>
                 <div className="flex flex-col items-center relative">
                     {/* Timeline line */}

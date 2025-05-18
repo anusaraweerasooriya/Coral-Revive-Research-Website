@@ -18,15 +18,15 @@ const AboutUs = () => {
       { name: 'Mr. Samitha Vidhanaarachchi', contribution: 'CO-SUPERVISOR', linkTag: 'G-SCHOLAR', link: 'https://scholar.google.com/citations?user=FGlT1w0AAAAJ&hl=en&oi=ao', gmail: 'mailto:samithapva@gmail.com', title: 'Doctoral Researcher', company: 'Murdoch University', location: 'Australia', image: CoSupervisor, workImage: Murdoch },
       { name: 'Ms. Hansi De Silva', contribution: 'CO-SUPERVISOR', linkTag: 'G-SCHOLAR', link: 'https://scholar.google.com/citations?user=iwbzstMAAAAJ&hl=en&oi=ao', gmail: 'mailto:hansi.desilva@domain.com', title: 'Lecturer', company: 'Sri Lanka Institute of', location: 'Information Technology', image: CoSupervisor2, workImage: SLIIT },
       { name: 'Admiral Piyal De Silva', contribution: 'EXTERNAL SUPERVISOR', linkTag: 'WIKIPEDIA', link: 'https://en.wikipedia.org/wiki/Piyal_De_Silva', gmail: 'mailto:piyal64@yahoo.com', title: 'Commander (Retd)', company: 'Sri Lanka Navy', location: '', image: Admiral, workImage: Navy },
-      { name: 'Anusara Weerasooriya', contribution: 'GROUP MEMBER', linkTag: 'LINKEDIN', link: 'https://www.linkedin.com/in/kavindu-anusara/', gmail: 'mailto:anusaraweerasooriya@gmail.com', title: 'Undergraduate', company: 'Sri Lanka Institute of', location: 'Information Technology', image: Member1, workImage: SLIIT },
-      { name: 'Dilshi Wanniarachchi', contribution: 'GROUP MEMBER', linkTag: 'LINKEDIN', link: 'https://www.linkedin.com/in/dilshiw/', gmail: 'mailto:dilshiwanniarachchi@gmail.com', title: 'Undergraduate', company: 'Sri Lanka Institute of', location: 'Information Technology', image: Member2, workImage: SLIIT },
-      { name: 'Nimesha Priyabandu', contribution: 'GROUP MEMBER', linkTag: 'LINKEDIN', link: 'https://www.linkedin.com/in/nimesha-priyabandu-521b74239/', gmail: 'mailto:sanduninimesha2000@gmail.com', title: 'Undergraduate', company: 'Sri Lanka Institute of', location: 'Information Technology', image: Member3, workImage: SLIIT },
-      { name: 'Hiranya Peiris', contribution: 'GROUP MEMBER', linkTag: 'LINKEDIN', link: 'https://www.linkedin.com/in/hiranyapeiris/', gmail: 'mailto:peirissemini@gmail.com', title: 'Undergraduate', company: 'Sri Lanka Institute of', location: 'Information Technology', image: Member4, workImage: SLIIT }
+      { name: 'Anusara Weerasooriya', contribution: 'GROUP LEADER', linkTag: 'LINKEDIN', link: 'https://www.linkedin.com/in/kavindu-anusara/', gmail: 'mailto:anusaraweerasooriya@gmail.com', title: 'Graduate', company: 'Sri Lanka Institute of', location: 'Information Technology', image: Member1, workImage: SLIIT },
+      { name: 'Dilshi Wanniarachchi', contribution: 'GROUP MEMBER', linkTag: 'LINKEDIN', link: 'https://www.linkedin.com/in/dilshiw/', gmail: 'mailto:dilshiwanniarachchi@gmail.com', title: 'Graduate', company: 'Sri Lanka Institute of', location: 'Information Technology', image: Member2, workImage: SLIIT },
+      { name: 'Nimesha Priyabandu', contribution: 'GROUP MEMBER', linkTag: 'LINKEDIN', link: 'https://www.linkedin.com/in/nimesha-priyabandu-521b74239/', gmail: 'mailto:sanduninimesha2000@gmail.com', title: 'Graduate', company: 'Sri Lanka Institute of', location: 'Information Technology', image: Member3, workImage: SLIIT },
+      { name: 'Hiranya Peiris', contribution: 'GROUP MEMBER', linkTag: 'LINKEDIN', link: 'https://www.linkedin.com/in/hiranyapeiris/', gmail: 'mailto:peirissemini@gmail.com', title: 'Graduate', company: 'Sri Lanka Institute of', location: 'Information Technology', image: Member4, workImage: SLIIT }
     ];
 
     return (
       <section id="about" className="min-h-screen py-20 bg-white">
-          <div className="container mx-auto px-6 padded-section">
+          <div className="container mx-auto px-6 padded-section py-10">
               <h2 className="text-4xl font-bold text-gray-800 mb-6">About Us</h2>
               <p className="text-gray-700 text-lg mb-4">
                   This section introduces the team behind the coral restoration project and our mission.

@@ -47,12 +47,12 @@ const ContactUs = () => {
 
   return (
     <section id="contact" className="min-h-screen py-20 bg-white">
-      <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center">Get In Touch</h2>
+      <h2 className="text-4xl font-bold text-gray-800 mb-4 text-center pt-10">Get In Touch</h2>
       <p className="text-center text-lg text-gray-700 italic mb-8">
         "Together, we can restore the beauty and biodiversity of our oceans"
       </p>
 
-      <div className="container mx-auto grid lg:grid-cols-2 gap-8 padded-section">
+      <div className="container mx-auto grid lg:grid-cols-2 gap-8 padded-section pt-10">
         {/* Contact Details */}
         <div className="flex flex-col justify-start">
           <p className="text-gray-700 text-lg text-left mb-8">

@@ -8,7 +8,6 @@ import Home from './pages/home';
 import LiteratureSurvey from './pages/literature-survey';
 import Methodology from './pages/methodology';
 import Milestones from './pages/milestones';
-import Presentations from './pages/presentations';
 import ResearchGap from './pages/research-gap';
 import ResearchObjectives from './pages/research-objectives';
 import ResearchProblem from './pages/research-problem';
@@ -28,7 +27,6 @@ const Page = () => {
         <TechnologiesUsed />
         <Milestones />
         <Documents />
-        <Presentations />
         <AboutUs />
         <ContactUs />
       </main>
