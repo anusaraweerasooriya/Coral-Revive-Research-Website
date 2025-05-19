@@ -44,7 +44,7 @@ const Documents = () => {
 
     return (
         <section id="documents" className="min-h-screen py-20 bg-gray-100">
-            <div className="container mx-auto px-6 padded-section py-10">
+            <div className="container mx-auto px-6 lg:px-20 py-10">
                 <h2 className="text-4xl font-bold text-gray-800 mb-6">Documents</h2>
                 <p className="text-gray-700 text-lg mb-4">
                     Please find all documents related to this project below.

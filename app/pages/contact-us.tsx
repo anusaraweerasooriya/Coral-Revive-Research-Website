@@ -52,7 +52,7 @@ const ContactUs = () => {
         "Together, we can restore the beauty and biodiversity of our oceans"
       </p>
 
-      <div className="container mx-auto grid lg:grid-cols-2 gap-8 padded-section pt-10">
+      <div className="container mx-auto grid lg:grid-cols-2 gap-8 px-4 sm:px-6 lg:px-20 pt-10">
         {/* Contact Details */}
         <div className="flex flex-col justify-start">
           <p className="text-gray-700 text-lg text-left mb-8">
