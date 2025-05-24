@@ -82,7 +82,7 @@ const Documents = () => {
                 </motion.div>
             </div>
 
-            <div className="container mx-auto px-6 padded-section py-2">
+            <div className="container mx-auto px-6 lg:px-20 py-2">
                 <h2 className="text-4xl font-bold text-gray-800 mb-6">Presentations</h2>
                 <p className="text-gray-700 text-lg mb-4">
                     Please find all presentation slides related to this project below.

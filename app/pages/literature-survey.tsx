@@ -65,7 +65,7 @@ const LiteratureSurvey = () => {
                     </p>
                 </motion.div>
 
-                {/* Right Side - Animated Image + Coral Model */}
+                {/* Image */}
                 <motion.div
                     className="w-full md:w-1/2 flex flex-col items-center"
                     initial="hidden"
@@ -82,7 +82,7 @@ const LiteratureSurvey = () => {
                         style={{ marginTop: 20 }}
                     />
 
-                    {/* Coral Model directly below the image */}
+                    {/* Coral Model */}
                     <div className="w-full mt-6">
                         <CoralModel />
                     </div>
