@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="text-center lg:text-left">
           <img src="/white-logo.svg" alt="Logo" className="h-20 md:h-24 lg:h-32 mx-auto lg:mx-0 mb-4" />
           <p className="max-w-xs mx-auto lg:mx-0 text-sm text-gray-300">
-            Embark on a journey of discovery with Coral Wall Diving and Research Center. Book your adventure now
+            Embark on a journey of revive with Coral Revive Research Group. Step in now let's restore the rainforests of the sea.
           </p>
           {/* Social Media Icons */}
           <div className="flex justify-center lg:justify-start mt-4 space-x-4">

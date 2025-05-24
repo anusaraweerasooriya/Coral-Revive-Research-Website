@@ -26,7 +26,7 @@ const Home = () => {
                     Coral Revive
                 </h1>
                 <p className="mt-4 text-xl md:text-2xl">
-                    Let's restore the "rainforests of the sea"
+                    Let's Restore the "Rainforests of the Sea"
                 </p>
             </div>
 
